@@ -1,0 +1,68 @@
+body{
+    font-family: "Roboto", serif;
+    background: url(img/wallpaperflare.com_wallpaper\ \(6\).jpg) no-repeat center;
+    background-size: cover;
+    color: #efefef;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.chatSquare{
+    margin: 0 auto;
+    width: 60rem;
+    height: 35rem;
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+    border: 2px solid #fafafa10;
+    border-radius: 3rem;
+}
+
+#tableMessage {
+    margin-top: 2rem;
+}
+#tableMessage tr{
+    display: block;
+    border-radius: 1rem;
+    text-align: left;
+    width: 57rem;
+    padding: 1rem;
+    margin: 0.4rem;
+    background-color: #292b2c70;
+    
+}
+
+.divTable{
+    position: absolute;
+    z-index: 1;
+}
+.divInputAndSend{
+    margin-left: 1.5rem;
+    margin-top: 30rem;
+    position: absolute;
+    z-index: 2;
+    margin: 8 auto;
+}
+#inputMessage{
+    width: 48rem;
+    height: 3rem;
+    border-radius: 3rem;
+    margin-right: 1rem;
+    border: none;
+    font-size: 1.2rem;
+}
+
+#send{
+    width: 7rem;
+    height: 4rem;
+    border-radius: 2rem;
+    background-color: #830cc4;
+    border: none;
+    color: #efefef;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+#send:hover{
+    
+    background-color: #740bac;
+    
+}
