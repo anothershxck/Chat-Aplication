@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@stomp/stompjs@7.0.0/bundles/stomp.umd.min.js"></script>
+    <script src="/app.js"></script>
+
+    <title>Chat Aplication</title>
+</head>
+<body>
+    <header>
+        <h1>Chat Aplication</h1>
+    </header>
+    <section>
+        <div id="user">
+            <h2>Please enter your username<br>to chat</h2>
+            <img src="img/vecteezy_user-icon-on-transparent-background_19879186.png">
+            <input id="inputUser" type="text" placeholder="Please enter your username">
+        </div>
+        <div class="chatSquare">
+            <div class="divTable" id="divTable">
+                <table id="tableMessage">
+                    <tbody id="messages">
+                    
+                    </tbody>
+                </table>
+            </div>
+            <div class="divInputAndSend">
+                <input type="text" id="inputMessage" placeholder="Please enter your message">
+                <button type="submit" id="send">Send</button>
+            </div>
+        </div>
+            
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>
